@@ -1,0 +1,65 @@
+.know-your-aesthetic {
+    width: 600px;
+    margin: 0 auto;
+    padding: 700px;
+    background-color: #ffd932;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+    font-size:50px;
+    font-family: Arial, sans-serif;
+  
+    .close-button {
+      position: absolute;
+      top: 80px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 60px;
+      font-weight: bold;
+      color: #000;
+    }
+  
+    .header {
+      margin-bottom: 20px;
+  
+      h1 {
+        margin: 0;
+        font-size: 60px;
+        color: #000; 
+      }
+    }
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+  
+      button {
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+  
+      .style-swipe {
+        background: linear-gradient(to right, #e63516, #fa2f5f); // Gradient similar to the button in the screenshot
+        color: #fff;
+  
+        &:hover {
+          background: linear-gradient(to right, #ff3b1b, #ff316c);
+        }
+      }
+  
+      .maybe-later {
+        background-color: #ff416c;
+        color: #edfbba;
+  
+        &:hover {
+          background-color: #ff316c;
+        }
+      }
+    }
+  }
+  
