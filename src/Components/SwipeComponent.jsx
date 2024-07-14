@@ -14,17 +14,17 @@ const images = [
 
 export const SwipeComponent = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [likes, setLikes] = useState(0);
-  const [dislikes, setDislikes] = useState(0);
+  const [likedUrls, setLikedUrls] = useState([]);
+  const [dislikedUrls, setDislikedUrls] = useState([]);
   const navigate = useNavigate();
 
   const handleLike = () => {
-    setLikes(likes + 1);
+    setLikedUrls([...likedUrls, images[currentImageIndex]]);
     nextImage();
   };
 
   const handleDislike = () => {
-    setDislikes(dislikes + 1);
+    setDislikedUrls([...dislikedUrls, images[currentImageIndex]]);
     nextImage();
   };
 
@@ -32,7 +32,7 @@ export const SwipeComponent = () => {
     if (currentImageIndex < images.length - 1) {
       setCurrentImageIndex(currentImageIndex + 1);
     } else {
-      navigate('/result', { likes, dislikes });
+      navigate('/result', { state: { likedUrls, dislikedUrls }});
     }
   };
 

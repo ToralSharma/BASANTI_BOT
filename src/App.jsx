@@ -10,6 +10,7 @@ import { Login } from './Components/login';
 import Done, { BodyTypeResult }  from './Components/BodyTypeResult';
 import { Basanti } from './Components/Basanti';
 import { SwipeComponent } from './Components/SwipeComponent';
+import { AestheticResult } from './Components/AestheticResult';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/cart/:id" element={<Basanti />}></Route>
         <Route path="/done" element={< BodyTypeResult/>}></Route>
         <Route path="/style" element={<SwipeComponent/>}></Route>
+        <Route path="/result" element={<AestheticResult/>}></Route>
          {/* {this.state.isAlertOpen ? <alert /> : null} */}
 
       </Routes>
