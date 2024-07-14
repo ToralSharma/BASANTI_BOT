@@ -9,7 +9,7 @@ import { Cart } from './Components/Cart';
 import { Login } from './Components/login';
 import Done, { BodyTypeResult }  from './Components/BodyTypeResult';
 import { Basanti } from './Components/Basanti';
-import { SwipeComponent } from './SwipeComponent';
+import { SwipeComponent } from './Components/SwipeComponent';
 
 function App() {
 
