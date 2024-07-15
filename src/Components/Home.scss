@@ -1,65 +1,604 @@
+// .know-your-aesthetic {
+//     width: 600px;
+//     margin: 0 auto;
+//     padding: 700px;
+//     background-color: #ffd932;
+//     border-radius: 100px;
+//     text-align: center;
+//     position: relative;
+//     font-size:50px;
+//     font-family: Arial, sans-serif;
+  
+//     .close-button {
+//       position: absolute;
+//       top: 80px;
+//       right: 10px;
+//       cursor: pointer;
+//       font-size: 60px;
+//       font-weight: bold;
+//       color: #000;
+//     }
+  
+//     .header {
+//       margin-bottom: 20px;
+  
+//       h1 {
+//         margin: 0;
+//         font-size: 60px;
+//         color: #000; 
+//       }
+//     }
+  
+//     .buttons {
+//       display: flex;
+//       flex-direction: column;
+  
+//       button {
+//         padding: 20px;
+//         margin: 10px 0;
+//         font-size: 30px;
+//         border: none;
+//         border-radius: 5px;
+//         cursor: pointer;
+//         transition: background-color 0.3s ease;
+//       }
+  
+//       .style-swipe {
+//         background: linear-gradient(to right, #e63516, #fa2f5f); // Gradient similar to the button in the screenshot
+//         color: #fff;
+  
+//         &:hover {
+//           background: linear-gradient(to right, #ff3b1b, #ff316c);
+//         }
+//       }
+  
+//       .maybe-later {
+//         background-color: #ff416c;
+//         color: #edfbba;
+  
+//         &:hover {
+//           background-color: #ff316c;
+//         }
+//       }
+//     }
+//   }
+// .know-your-aesthetic {
+//   width: 80%;
+//   max-width: 600px;
+//   margin: 100px auto;
+//   padding: 40px 20px;
+//   background-color: #ffd932;
+//   border-radius: 20px;
+//   text-align: center;
+//   position: relative;
+//   font-size: 20px;
+//   font-family: 'Arial', sans-serif;
+//   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+//   &:hover {
+//     transform: scale(1.02);
+//     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+//   }
+
+//   .close-button {
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+//     cursor: pointer;
+//     font-size: 30px;
+//     font-weight: bold;
+//     color: #000;
+//     transition: color 0.3s ease;
+
+//     &:hover {
+//       color: #ff316c;
+//     }
+//   }
+
+//   .header {
+//     margin-bottom: 40px;
+
+//     h1 {
+//       margin: 0;
+//       font-size: 36px;
+//       color: #000;
+//       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//       letter-spacing: 1.5px;
+//     }
+//   }
+
+//   .buttons {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+
+//     button {
+//       padding: 15px 30px;
+//       margin: 10px 0;
+//       font-size: 18px;
+//       border: none;
+//       border-radius: 50px;
+//       cursor: pointer;
+//       transition: background-color 0.3s ease, transform 0.3s ease;
+//       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+//       &:hover {
+//         transform: translateY(-5px);
+//       }
+
+//       &:focus {
+//         outline: none;
+//       }
+//     }
+
+//     .style-swipe {
+//       background: linear-gradient(to right, #e63516, #fa2f5f); // Gradient similar to the button in the screenshot
+//       color: #fff;
+
+//       &:hover {
+//         background: linear-gradient(to right, #ff3b1b, #ff316c);
+//       }
+//     }
+
+//     .maybe-later {
+//       background-color: #ff416c;
+//       color: #fff;
+
+//       &:hover {
+//         background-color: #ff316c;
+//       }
+//     }
+//   }
+// }
+
+
+
+
+
+// .know-your-aesthetic {
+//   width: 80%;
+//   max-width: 600px;
+//   margin: 50px auto;
+//   padding: 30px 20px;
+//   background-color: #f8f9fa; /* Light grey background for a more formal look */
+//   border-radius: 15px;
+//   text-align: center;
+//   position: relative;
+//   font-size: 18px;
+//   font-family: 'Arial', sans-serif;
+//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+// }
+
+// .know-your-aesthetic:hover {
+//   transform: scale(1.02);
+//   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+// }
+
+// .close-button {
+//   position: absolute;
+//   top: 15px;
+//   right: 15px;
+//   cursor: pointer;
+//   font-size: 25px;
+//   font-weight: bold;
+//   color: #333; /* Darker color for better contrast */
+//   transition: color 0.3s ease;
+// }
+
+// .close-button:hover {
+//   color: #ff416c;
+// }
+
+// .header {
+//   margin-bottom: 30px;
+// }
+
+// .header h1 {
+//   margin: 0;
+//   font-size: 28px;
+//   color: #333;
+//   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//   letter-spacing: 1.2px;
+// }
+
+// .buttons {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .buttons button {
+//   padding: 10px 25px;
+//   margin: 10px 0;
+//   font-size: 16px;
+//   border: none;
+//   border-radius: 25px;
+//   cursor: pointer;
+//   transition: background-color 0.3s ease, transform 0.3s ease;
+//   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+// }
+
+// .buttons button:hover {
+//   transform: translateY(-3px);
+// }
+
+// .buttons button:focus {
+//   outline: none;
+// }
+
+// .style-swipe {
+//   background: linear-gradient(to right, #e63516, #fa2f5f);
+//   color: #fff;
+// }
+
+// .style-swipe:hover {
+//   background: linear-gradient(to right, #ff3b1b, #ff316c);
+// }
+
+// .maybe-later {
+//   background-color: #ff416c;
+//   color: #fff;
+// }
+
+// .maybe-later:hover {
+//   background-color: #ff316c;
+// }
+
+
+// SCSS for the .know-your-aesthetic component
+
+// .know-your-aesthetic {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+//   height: 100vh;
+//   padding: 20px;
+//   background: url('https://t3.ftcdn.net/jpg/02/98/02/62/360_F_298026229_SmOPh6Uxkd1Cep7FqPfG7F3NT7YcBJFT.jpg') no-repeat center center;
+//   background-size: cover;
+//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//   position: relative;
+//   font-size: 18px;
+//   font-family: 'Arial', sans-serif;
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+//   &:hover {
+//     transform: scale(1.02);
+//     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+//   }
+
+//   .image-container {
+//     flex: 1;
+//     max-width: 50%;
+//     img {
+//       width: 100%;
+//       height: auto;
+//       border-radius: 15px;
+//       object-fit: cover;
+//     }
+//   }
+
+//   .content {
+//     flex: 1;
+//     max-width: 50%;
+//     margin-left: 20px;
+//     text-align: center;
+//     position: relative;
+//     background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background for readability */
+//     border-radius: 15px;
+//     padding: 20px;
+
+//     .close-button {
+//       position: absolute;
+//       top: 15px;
+//       right: 15px;
+//       cursor: pointer;
+//       font-size: 25px;
+//       font-weight: bold;
+//       color: #333; /* Darker color for better contrast */
+//       transition: color 0.3s ease;
+
+//       &:hover {
+//         color: #ff416c;
+//       }
+//     }
+
+//     .header {
+//       margin-bottom: 30px;
+
+//       h1 {
+//         margin: 0;
+//         font-size: 28px;
+//         color: #333;
+//         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//         letter-spacing: 1.2px;
+//       }
+//     }
+
+//     .buttons {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+
+//       button {
+//         padding: 10px 25px;
+//         margin: 10px 0;
+//         font-size: 16px;
+//         border: none;
+//         border-radius: 25px;
+//         cursor: pointer;
+//         transition: background-color 0.3s ease, transform 0.3s ease;
+//         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+//         &:hover {
+//           transform: translateY(-3px);
+//         }
+
+//         &:focus {
+//           outline: none;
+//         }
+//       }
+
+//       .style-swipe {
+//         background: linear-gradient(to right, #e63516, #fa2f5f);
+//         color: #fff;
+
+//         &:hover {
+//           background: linear-gradient(to right, #ff3b1b, #ff316c);
+//         }
+//       }
+
+//       .maybe-later {
+//         background-color: #ff416c;
+//         color: #fff;
+
+//         &:hover {
+//           background-color: #ff316c;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// SCSS for the .know-your-aesthetic component
+
+// .know-your-aesthetic {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 90%; /* Increased width */
+//   max-width: 1200px; /* Maximum width for larger screens */
+//   height: auto; /* Height adjusts based on content */
+//   min-height: 80vh; /* Minimum height to ensure adequate space */
+//   padding: 20px;
+//   background: url('https://static.vecteezy.com/system/resources/previews/010/930/988/non_2x/shopping-online-on-phone-with-podium-paper-art-modern-background-gifts-box-vector.jpg') no-repeat center center;
+//   background-size: cover;
+//   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+//   position: relative;
+//   font-size: 18px;
+//   font-family: 'Arial', sans-serif;
+//   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+//   &:hover {
+//     transform: scale(1.02);
+//     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+//   }
+
+//   .image-container {
+//     flex: 1;
+//     max-width: 50%;
+//     img {
+//       width: 100%;
+//       height: auto;
+//       border-radius: 15px;
+//       object-fit: cover;
+//     }
+//   }
+
+//   .content {
+//     flex: 1;
+//     max-width: 50%;
+//     margin-left: 20px;
+//     text-align: center;
+//     position: relative;
+//     background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background for readability */
+//     border-radius: 15px;
+//     padding: 20px;
+
+//     .close-button {
+//       position: absolute;
+//       top: 15px;
+//       right: 15px;
+//       cursor: pointer;
+//       font-size: 25px;
+//       font-weight: bold;
+//       color: #333; /* Darker color for better contrast */
+//       transition: color 0.3s ease;
+
+//       &:hover {
+//         color: #ff416c;
+//       }
+//     }
+
+//     .header {
+//       margin-bottom: 30px;
+
+//       h1 {
+//         margin: 0;
+//         font-size: 28px;
+//         color: #333;
+//         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//         letter-spacing: 1.2px;
+//       }
+//     }
+
+//     .buttons {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+
+//       button {
+//         padding: 10px 25px;
+//         margin: 10px 0;
+//         font-size: 16px;
+//         border: none;
+//         border-radius: 25px;
+//         cursor: pointer;
+//         transition: background-color 0.3s ease, transform 0.3s ease;
+//         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+//         &:hover {
+//           transform: translateY(-3px);
+//         }
+
+//         &:focus {
+//           outline: none;
+//         }
+//       }
+
+//       .style-swipe {
+//         background: linear-gradient(to right, #e63516, #fa2f5f);
+//         color: #fff;
+
+//         &:hover {
+//           background: linear-gradient(to right, #ff3b1b, #ff316c);
+//         }
+//       }
+
+//       .maybe-later {
+//         background-color: #ff416c;
+//         color: #fff;
+
+//         &:hover {
+//           background-color: #ff316c;
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// SCSS for the .know-your-aesthetic component
+
+body{ 
+  background-image: url('WhatsApp Image 2024-07-15 at 7.15.31 PM.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .know-your-aesthetic {
-    width: 600px;
-    margin: 0 auto;
-    padding: 700px;
-    background-color: #ffd932;
-    border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1500px; /* Full viewport width */
+  height: 100px; /* Height based on content */
+  max-height: 600px; /* Set a max height to avoid excessive height */
+  padding: 600px;
+  padding-inline: 100px;
+  padding-block: 200px;
+  background: url('https://i.pinimg.com/736x/c8/5d/4b/c85d4ba0bd68019808fb367cd985a127.jpg') no-repeat center center;
+  background-size: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: cover;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .image-container {
+    flex: 1;
+    max-width: 50%;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  }
+
+  .content {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 20px;
     text-align: center;
     position: relative;
-    font-size:50px;
-    font-family: Arial, sans-serif;
-  
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background for readability */
+    border-radius: 15px;
+    padding: 20px;
+
     .close-button {
       position: absolute;
-      top: 80px;
-      right: 10px;
+      top: 15px;
+      right: 15px;
       cursor: pointer;
-      font-size: 60px;
+      font-size: 25px;
       font-weight: bold;
-      color: #000;
-    }
-  
-    .header {
-      margin-bottom: 20px;
-  
-      h1 {
-        margin: 0;
-        font-size: 60px;
-        color: #000; 
+      color: #333; /* Darker color for better contrast */
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ff416c;
       }
     }
-  
+
+    .header {
+      margin-bottom: 30px;
+
+      h1 {
+        margin: 0;
+        font-size: 28px;
+        color: #333;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        letter-spacing: 1.2px;
+      }
+    }
+
     .buttons {
       display: flex;
       flex-direction: column;
-  
+      align-items: center;
+
       button {
-        padding: 20px;
+        padding: 10px 25px;
         margin: 10px 0;
-        font-size: 30px;
+        font-size: 16px;
         border: none;
-        border-radius: 5px;
+        border-radius: 25px;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+          transform: translateY(-3px);
+        }
+
+        &:focus {
+          outline: none;
+        }
       }
-  
+
       .style-swipe {
-        background: linear-gradient(to right, #e63516, #fa2f5f); // Gradient similar to the button in the screenshot
+        background: linear-gradient(to right, #e63516, #fa2f5f);
         color: #fff;
-  
+
         &:hover {
           background: linear-gradient(to right, #ff3b1b, #ff316c);
         }
       }
-  
+
       .maybe-later {
         background-color: #ff416c;
-        color: #edfbba;
-  
+        color: #fff;
+
         &:hover {
           background-color: #ff316c;
         }
       }
     }
   }
-  
+}
