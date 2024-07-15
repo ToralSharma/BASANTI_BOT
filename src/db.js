@@ -1,4 +1,4 @@
-[{
+export const images = [{
   "img": "https://m.media-amazon.com/images/I/71BwBI4pxYL._SY550_.jpg",
   "bodyType": "pear",
   "asthetic": "cottagecore"
