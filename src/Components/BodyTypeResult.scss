@@ -77,3 +77,80 @@
     }
   }
 }
+
+// .body-type-result {
+//   padding: 20px;
+//   font-family: Arial, sans-serif;
+
+//   h1 {
+//     text-align: center;
+//     margin-bottom: 20px;
+//   }
+
+//   .result-container {
+//     display: flex;
+//     justify-content: space-around;
+//     margin-bottom: 20px;
+
+//     .result {
+//       text-align: center;
+
+//       h2 {
+//         margin-bottom: 10px;
+//       }
+
+//       .progress-bar {
+//         width: 100px;
+//         height: 20px;
+//         background-color: #e0e0e0;
+//         border-radius: 10px;
+//         overflow: hidden;
+//         margin: 0 auto 10px;
+
+//         .fill {
+//           height: 100%;
+//           border-radius: 10px;
+//         }
+
+//         .pear {
+//           background-color: #f1c40f;
+//         }
+
+//         .hourglass {
+//           background-color: #e74c3c;
+//         }
+
+//         .inverted-triangle {
+//           background-color: #3498db;
+//         }
+//       }
+
+//       p {
+//         margin: 0;
+//       }
+//     }
+//   }
+
+//   .recommendations {
+//     h2 {
+//       text-align: center;
+//       margin-bottom: 20px;
+//     }
+
+//     .recommendation-images {
+//       display: flex;
+//       flex-wrap: wrap;
+//       justify-content: center;
+
+//       .recommendation-image {
+//         margin: 10px;
+
+//         img {
+//           width: 100px;
+//           height: auto;
+//           border-radius: 10px;
+//         }
+//       }
+//     }
+//   }
+// }
