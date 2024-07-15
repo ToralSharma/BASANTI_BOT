@@ -35,6 +35,8 @@ export const Navbar = () => {
           alt=""
         />
       
+        
+
         <div className="link1">
           <Link
             className="link"
